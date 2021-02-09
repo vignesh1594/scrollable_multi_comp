@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "ngx-toastr/toastr.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/*!
+ * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+@font-face {
+    font-family:Poppins;
+    src: url(../src/assets/fonts/Poppins-Regular.ttf);
+  }
+  body {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  label,
+  p,
+  a{
+      font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  }

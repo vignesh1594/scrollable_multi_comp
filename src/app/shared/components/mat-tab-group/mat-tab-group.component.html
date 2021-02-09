@@ -1,0 +1,16 @@
+<div class="container  header-container">
+    <mat-tab-group [disableRipple]='true' [(selectedIndex)]="selectedOrderTab"
+        (selectedIndexChange)="tabChange($event)">
+        <mat-tab *ngFor="let tab of tabs; let index = index" [label]="tab.header">
+            <div *ngIf=" index == selectedOrderTab" class='container-fluid'>
+                <app-carousel [slidesList]="storyList"></app-carousel>
+                <br>
+                <h5><strong>{{tab.userDetails?.time}} {{tab.userDetails?.name}} !</strong></h5>
+                <p>{{tab.userDetails?.description}}</p>
+                <ng-container *ngFor="let data of applist; let index = index">
+                    <app-carousel [slidesList]="data"></app-carousel>
+                </ng-container>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>

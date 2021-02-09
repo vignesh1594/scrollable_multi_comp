@@ -1,0 +1,34 @@
+.col-story {
+    flex: 0 0 8.333333%;
+    max-width: 10.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.border-black {
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+.circle-black {
+    border: 3px solid black;
+  border-radius: 5px;
+  margin: 5px 0px 5px 5px;
+  }
+
+  .circle-gray {
+    border: 3px solid gray;
+  border-radius: 5px;
+  margin: 5px 0px 5px 5px;
+  }
+
+::ng-deep .div .slide {
+    width: 155px !important;
+}
+
+::ng-deep .slick-initialized .slick-slide {
+    margin-top: 10px;
+    outline: none;
+}
+  

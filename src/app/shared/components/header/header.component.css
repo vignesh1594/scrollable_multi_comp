@@ -1,0 +1,52 @@
+
+.header-container {
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 7px;
+    padding: 2px;
+}
+
+.form-input {
+    height: 40px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.big {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+  }
+
+.mat-badge-content {
+    color: black !important;
+    background: white !important;
+}
+/* 
+.mat-badge-medium.mat-badge-overlap.mat-badge-after .mat-badge-content {
+    right: -7px !important;
+}
+
+.mat-badge-medium.mat-badge-above .mat-badge-content {
+    top: -5px !important;
+} */
